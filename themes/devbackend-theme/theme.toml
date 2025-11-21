@@ -1,0 +1,12 @@
+name = "devbackend-theme"
+license = "MIT"
+licenselink = "https://github.com/yourname/devbackend-theme/blob/main/LICENSE"
+description = "Минималистичная тема для блога devbackend.ru"
+homepage = "https://devbackend.ru/"
+tags = ["blog", "minimal", "responsive", "russian"]
+features = ["blog", "responsive", "syntax-highlighting"]
+min_version = "0.112.0"
+
+[author]
+  name = "devbackend"
+  homepage = "https://devbackend.ru/"

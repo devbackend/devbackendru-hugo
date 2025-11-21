@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}. Все права защищены.</p>
+    {{ with .Site.Params.social }}
+    <div class="social-links">
+      {{ with .github }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+      {{ with .telegram }}<a href="https://t.me/{{ . }}" target="_blank" rel="noopener">Telegram</a>{{ end }}
+      {{ with .twitter }}<a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">Twitter</a>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</footer>

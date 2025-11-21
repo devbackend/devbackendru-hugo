@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="list-page">
+  <header class="list-header">
+    <h1>#{{ .Title }}</h1>
+    <p>{{ len .Pages }} {{ if eq (len .Pages) 1 }}статья{{ else if le (len .Pages) 4 }}статьи{{ else }}статей{{ end }}</p>
+  </header>
+
+  <section class="posts">
+    {{ $paginator := .Paginate .Pages }}
+    <div class="posts-grid">
+    {{ range $paginator.Pages }}
+    <article class="post-preview">
+      {{ with .Params.image }}
+      <a href="{{ $.Permalink }}" class="post-image">
+        <img src="{{ . }}" alt="{{ $.Title }}">
+      </a>
+      {{ end }}
+      <div class="post-content-preview">
+        <header>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Day }} {{ i18n (.Date.Format "January") }} {{ .Date.Year }}
+          </time>
+          {{ with .Params.tags }}
+          <div class="tags">
+            {{ range . }}
+            <a href="{{ "tags/" | relURL }}{{ . | urlize }}/" class="tag">#{{ . }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </header>
+        {{ $paragraphs := split .RawContent "\n\n" }}
+        {{ $firstPara := index $paragraphs 0 | markdownify | plainify }}
+        {{ if or (gt (len $firstPara) 250) (gt (len $paragraphs) 1) }}
+          {{ if le (len $firstPara) 250 }}
+        <p>{{ $firstPara }}</p>
+          {{ else }}
+        <p>{{ .Plain | truncate 250 }}</p>
+          {{ end }}
+        <a href="{{ .Permalink }}" class="read-more-btn">Далее</a>
+        {{ else }}
+        <p>{{ $firstPara }}</p>
+        {{ end }}
+      </div>
+    </article>
+    {{ else }}
+    <p>Статей не найдено.</p>
+    {{ end }}
+    </div>
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination">
+      {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}">&larr; Назад</a>
+      {{ end }}
+      <span>Страница {{ $paginator.PageNumber }} из {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}">Вперед &rarr;</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+  </section>
+</div>
+{{ end }}

@@ -1,0 +1,10 @@
+---
+title: "5 подводных камней event-driven архитектуры"
+date: 2022-09-13T07:09:00+01:00
+image: "/images/posts/tag-architecture.svg"
+tags: ["architecture", "systemdesign"]
+---
+
+Неделю назад я делился с вами статьей про реализацию событий-ориентированной архитектуры, а сегодня хочу поделиться статьей про пятерку подводных камней данного подхода и советы по их избеганию или решению.
+
+[Читать статью](https://medium.com/wix-engineering/event-driven-architecture-5-pitfalls-to-avoid-b3ebf885bdb1)

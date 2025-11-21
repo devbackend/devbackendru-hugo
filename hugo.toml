@@ -1,0 +1,34 @@
+baseURL = 'https://devbackend.ru/'
+languageCode = 'ru-ru'
+defaultContentLanguage = 'ru'
+title = 'Бэкендошная'
+theme = 'devbackend-theme'
+
+[languages]
+  [languages.ru]
+    languageName = 'Русский'
+    [languages.ru.params]
+      dateFormat = '2 January 2006'
+
+summaryLength = 70
+
+[pagination]
+  pagerSize = 12
+
+[params]
+  description = 'Блог о бэкенд-разработке'
+  author = 'devbackend'
+  # favicon = '/favicon.ico'
+
+  [params.social]
+    # github = 'your-username'
+    # telegram = 'your-channel'
+    # twitter = 'your-handle'
+
+[menu]
+
+[markup]
+  [markup.highlight]
+    style = 'github-dark'
+    lineNos = false
+    noClasses = true

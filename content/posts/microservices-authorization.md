@@ -1,0 +1,12 @@
+---
+title: "Авторизация в микросервисной архитектуре"
+date: 2022-09-20T07:09:00+01:00
+image: "/images/posts/tag-microservices.svg"
+tags: ["microservices"]
+---
+
+Продолжаем тему решения различных проблем микросервисной архитектуры после перехода с монолита.
+
+Сегодня речь пойдет про авторизацию и best practice по ее реализации в микросервисной архитектуре.
+
+[Читать статью](https://www.osohq.com/post/microservices-authorization-patterns)

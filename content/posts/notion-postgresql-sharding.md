@@ -1,0 +1,12 @@
+---
+title: "Как Notion шардировал PostgreSQL"
+date: 2022-11-08T07:09:00+01:00
+image: "/images/posts/tag-postgresql.svg"
+tags: ["postgresql", "systemdesign"]
+---
+
+В 2020м году сервис Notion получил увеличение нагрузки на их монолитную базу и стало понятно, что использование продукта превышает возможности, которые может позволить себе Postgres в виде базы без шардов.
+
+Сегодня я принес вам статью, в которой инженеры Notion делятся своим опытом по шардированию базы Postgres.
+
+[Читать статью](https://blog.quastor.org/p/notion-sharded-postgres-database-8af4)
