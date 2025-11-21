@@ -5,10 +5,6 @@ image: "/images/posts/tag-golang.svg"
 tags: ["golang"]
 ---
 
-Привет!
-
 Сегодня я принес вам доклад про Best Practices разработки на Golang.
-
 Докладу уже более 4х лет, но он все еще не теряет актуальности.
-
 [Смотреть видео](https://www.youtube.com/watch?v=MzTcsI6tn-0)

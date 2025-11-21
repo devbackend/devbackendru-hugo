@@ -5,10 +5,6 @@ image: "/images/posts/tag-golang.svg"
 tags: ["golang"]
 ---
 
-Привет!
-
 Неделю назад я делился лучшими практиками разработки на Golang.
-
 Сегодня делюсь его антиподом - докладом про худшие практики разработки на Golang.
-
 [Смотреть видео](https://www.youtube.com/watch?v=Jns0QgJtAYY)

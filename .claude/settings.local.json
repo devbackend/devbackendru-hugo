@@ -3,7 +3,8 @@
     "allow": [
       "Bash(cat:*)",
       "Bash(hugo server:*)",
-      "WebFetch(domain:t.me)"
+      "WebFetch(domain:t.me)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

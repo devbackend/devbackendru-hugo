@@ -31,15 +31,19 @@
         </header>
         {{ $paragraphs := split .RawContent "\n\n" }}
         {{ $firstPara := index $paragraphs 0 | markdownify | plainify }}
-        {{ if or (gt (len $firstPara) 250) (gt (len $paragraphs) 1) }}
-          {{ if le (len $firstPara) 250 }}
-        <p>{{ $firstPara }}</p>
+        {{ $preview := $firstPara }}
+        {{ if findRE "https?://" (index $paragraphs 0) }}
+          {{ $preview = replaceRE "https?://[^\\s\\)\\]]*" "" $firstPara | replaceRE "\\s+" " " | strings.TrimSpace }}
+        {{ end }}
+        {{ if or (gt (len $preview) 250) (gt (len $paragraphs) 1) }}
+          {{ if le (len $preview) 250 }}
+        <p>{{ $preview }}</p>
           {{ else }}
-        <p>{{ .Plain | truncate 250 }}</p>
+        <p>{{ $preview | truncate 250 }}</p>
           {{ end }}
         <a href="{{ .Permalink }}" class="read-more-btn">Далее</a>
         {{ else }}
-        <p>{{ $firstPara }}</p>
+        <p>{{ $preview }}</p>
         {{ end }}
       </div>
     </article>
