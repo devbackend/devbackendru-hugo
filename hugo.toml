@@ -18,7 +18,7 @@ summaryLength = 70
 [params]
   description = 'Блог о бэкенд-разработке'
   author = 'devbackend'
-  # favicon = '/favicon.ico'
+  favicon = '/favicon.svg'
 
   [params.social]
     # github = 'your-username'
