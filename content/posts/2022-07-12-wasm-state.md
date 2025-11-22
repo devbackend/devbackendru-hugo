@@ -1,6 +1,6 @@
 ---
 title: "State of WebAssembly 2022"
-description: "Сегодня будет та самая оговорка про "почти никакого фронтенда", вынесенная в описание канала - статья про WebAssembly."
+description: "Результаты опроса о развитии WebAssembly — статья про текущее состояние WASM."
 date: 2022-07-12T07:09:00+01:00
 image: "/images/posts/tag-rust.svg"
 tags: ["rust", "wasm"]

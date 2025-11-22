@@ -1,6 +1,6 @@
 ---
 title: "Настоящее и будущее микросервисов"
-description: "Обсуждение на тему "Настоящее и будущее микросервисной архитектуры"."
+description: "Обсуждение на тему настоящего и будущего микросервисной архитектуры."
 date: 2022-07-15T09:11:00+01:00
 image: "/images/posts/tag-microservices.svg"
 tags: ["microservices", "architecture"]
