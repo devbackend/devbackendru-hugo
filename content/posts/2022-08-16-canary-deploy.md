@@ -1,5 +1,6 @@
 ---
 title: "Канареечный релиз"
+description: "Неделю назад я делился с вами методикой Blue/Green деплоя."
 date: 2022-08-16T07:09:00+01:00
 image: "/images/posts/tag-deploy.svg"
 tags: ["deploy", "systemdesign"]

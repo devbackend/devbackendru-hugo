@@ -1,5 +1,6 @@
 ---
 title: "Darker Corners of Go"
+description: "Обширная статья про некоторые неочевидные подводные камни Golang."
 date: 2022-08-12T09:11:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang"]

@@ -1,5 +1,6 @@
 ---
 title: "Dependency Injection в Yii2"
+description: "Пошаговый доклад по внедрению зависимостей на примере фреймворка Yii2."
 date: 2018-07-17T13:14:00+01:00
 image: "/images/posts/tag-php.svg"
 tags: ["php", "architecture"]

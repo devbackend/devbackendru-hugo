@@ -1,5 +1,6 @@
 ---
 title: "Первый коммит в Open Source"
+description: "Если вы хотели начать контрибьютить в open source, но не могли найти подходящий проект, то данный репозиторий может стать отличным подспорьем в этом начинании."
 date: 2022-07-05T07:09:00+01:00
 image: "/images/posts/tag-opensource.svg"
 tags: ["opensource"]

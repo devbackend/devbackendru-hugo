@@ -1,5 +1,6 @@
 ---
 title: "Правило шести: чистый код и когнитивная наука"
+description: "Статья про интересный подход к написанию чистого кода."
 date: 2022-10-21T10:11:00+01:00
 image: "/images/posts/tag-architecture.svg"
 tags: ["architecture"]

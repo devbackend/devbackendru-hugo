@@ -1,5 +1,6 @@
 ---
 title: "Транзакции в микросервисной архитектуре"
+description: "Еще одна проблема в микросервисной архитектуре после перехода с монолита - это транзакции."
 date: 2022-09-16T09:11:00+01:00
 image: "/images/posts/tag-microservices.svg"
 tags: ["microservices", "systemdesign"]

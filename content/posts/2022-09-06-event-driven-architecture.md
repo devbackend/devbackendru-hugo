@@ -1,5 +1,6 @@
 ---
 title: "Event-Driven Architecture"
+description: "Обзорная статья про построение событийно-ориентированной архитектуры."
 date: 2022-09-06T07:09:00+01:00
 image: "/images/posts/tag-architecture.svg"
 tags: ["architecture", "systemdesign"]

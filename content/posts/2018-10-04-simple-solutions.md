@@ -1,5 +1,6 @@
 ---
 title: "Простые решения"
+description: "> Меня попросили оценить время на доработку функционала в довольно старом проекте"
 date: 2018-10-04T02:27:00+01:00
 image: "/images/posts/tag-architecture.svg"
 tags: ["architecture"]

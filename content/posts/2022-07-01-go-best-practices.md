@@ -1,5 +1,6 @@
 ---
 title: "Best Practices разработки на Go"
+description: "Сегодня я принес вам доклад про Best Practices разработки на Golang."
 date: 2022-07-01T09:11:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang"]

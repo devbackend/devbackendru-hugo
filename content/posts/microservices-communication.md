@@ -1,5 +1,6 @@
 ---
 title: "Коммуникация между микросервисами"
+description: "Одна из основных проблем микросервисов - это проблема их коммуникации."
 date: 2022-09-09T09:11:00+01:00
 image: "/images/posts/tag-microservices.svg"
 tags: ["microservices", "architecture"]

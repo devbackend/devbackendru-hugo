@@ -1,5 +1,6 @@
 ---
 title: "Constructor Promotion в PHP"
+description: "Никита Попов в очередной раз радует отличными RFC."
 date: 2020-03-29T17:48:00+01:00
 image: "/images/posts/tag-php.svg"
 tags: ["php"]

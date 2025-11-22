@@ -1,5 +1,6 @@
 ---
 title: "Площадки для практики алгоритмов"
+description: "Решил немного разбавить тишину в эфире этого канала."
 date: 2020-02-04T07:48:00+01:00
 image: "/images/posts/tag-algorithms.svg"
 tags: ["algorithms"]

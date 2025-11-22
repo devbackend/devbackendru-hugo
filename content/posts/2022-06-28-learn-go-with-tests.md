@@ -1,5 +1,6 @@
 ---
 title: "Learn Go with Tests"
+description: "Простенькая книга для погружения в разработку на Golang через TDD."
 date: 2022-06-28T07:09:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang", "tdd"]

@@ -1,5 +1,6 @@
 ---
 title: "Как Notion шардировал PostgreSQL"
+description: "В 2020м году сервис Notion получил увеличение нагрузки на их монолитную базу и стало понятно, что использование продукта превышает возможности, которые может по"
 date: 2022-11-08T07:09:00+01:00
 image: "/images/posts/tag-postgresql.svg"
 tags: ["postgresql", "systemdesign"]

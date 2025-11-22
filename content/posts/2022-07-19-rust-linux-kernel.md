@@ -1,5 +1,6 @@
 ---
 title: "Rust в ядре Linux"
+description: "На прошедшей конференции Open-Source Summit 2022 в секции ответов на вопросы Линус Торвальдс упомянул о возможности скорой интеграции в ядро Linux компонентов д"
 date: 2022-07-19T07:09:00+01:00
 image: "/images/posts/tag-rust.svg"
 tags: ["rust"]

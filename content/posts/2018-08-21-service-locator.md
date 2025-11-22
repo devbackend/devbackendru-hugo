@@ -1,5 +1,6 @@
 ---
 title: "Service Locator как анти-паттерн"
+description: "В дополнение к Одиночке."
 date: 2018-08-21T22:20:00+01:00
 image: "/images/posts/tag-architecture.svg"
 tags: ["architecture", "php"]

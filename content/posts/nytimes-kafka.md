@@ -1,5 +1,6 @@
 ---
 title: "New York Times использует Kafka как основную БД"
+description: "Читая очередную статью про распределенные системы, наткнулся на интересный факт: New York Times использует Kafka в качестве основной базы данных для всех своих "
 date: 2022-12-16T09:11:00+01:00
 image: "/images/posts/tag-kafka.svg"
 tags: ["kafka"]

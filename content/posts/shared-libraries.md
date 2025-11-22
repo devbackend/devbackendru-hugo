@@ -1,5 +1,6 @@
 ---
 title: "Shared Libraries в микросервисах"
+description: "Проблемы микросервисов:"
 date: 2022-10-11T08:09:00+01:00
 image: "/images/posts/tag-architecture.svg"
 tags: ["architecture", "microservices"]

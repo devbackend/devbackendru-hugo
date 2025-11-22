@@ -1,5 +1,6 @@
 ---
 title: "Погружение в PostgreSQL EXPLAIN"
+description: "Погружение в детали работы EXPLAIN в PostgreSQL: как читать планы запросов, когда появляется и как работает каждый из узлов, какую информацию можно получить из "
 date: 2024-05-08T09:12:00+01:00
 image: "/images/posts/tag-postgresql.svg"
 tags: ["postgresql"]

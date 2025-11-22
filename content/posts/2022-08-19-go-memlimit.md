@@ -1,5 +1,6 @@
 ---
 title: "GOMEMLIMIT в Go 1.19"
+description: "Если ваше приложение на Golang активно использует память, то вам наверняка знакома проблема, связанная с частотой запуска GC, которая вызывает частые фризы из-з"
 date: 2022-08-19T09:11:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang", "performance"]

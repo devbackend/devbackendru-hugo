@@ -1,5 +1,6 @@
 ---
 title: "System Design: сервис типа Google Places"
+description: "Сегодня очень полезная информация для прохождения секции system design: пример пошагового проектирования системы на подобии Google Places - сервисов, которые ос"
 date: 2022-10-07T10:11:00+01:00
 image: "/images/posts/tag-systemdesign.svg"
 tags: ["systemdesign"]

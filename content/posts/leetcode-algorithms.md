@@ -1,5 +1,6 @@
 ---
 title: "TOP-3 сложнейших задач LeetCode"
+description: "Один из самых частых этапов при подготовке к собеседованиям - это решение алгоритмических задач на Leetcode."
 date: 2022-10-04T08:09:00+01:00
 image: "/images/posts/tag-algorithms.svg"
 tags: ["algorithms"]

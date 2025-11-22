@@ -1,5 +1,6 @@
 ---
 title: "DDD: Единый язык"
+description: "Скучали?"
 date: 2019-02-21T02:40:00+01:00
 image: "/images/posts/tag-ddd.svg"
 tags: ["ddd", "architecture"]

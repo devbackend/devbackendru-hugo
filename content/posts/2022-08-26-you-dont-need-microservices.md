@@ -1,5 +1,6 @@
 ---
 title: "Вам не нужны микросервисы?"
+description: "Microservices. Microservices everywhere!"
 date: 2022-08-26T09:11:00+01:00
 image: "/images/posts/tag-microservices.svg"
 tags: ["microservices", "architecture"]

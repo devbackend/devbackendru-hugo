@@ -1,5 +1,6 @@
 ---
 title: "Гайд по System Design"
+description: "Пошаговый гайдлайн по прохождению секции System Design: сбор требований, фиксирование цифр, верхнеуровневое описание архитектуры, преимущества и недостатки разл"
 date: 2022-08-30T07:09:00+01:00
 image: "/images/posts/tag-systemdesign.svg"
 tags: ["systemdesign"]

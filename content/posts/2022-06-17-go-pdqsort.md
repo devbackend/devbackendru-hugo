@@ -1,5 +1,6 @@
 ---
 title: "Алгоритм pdqsort в Go"
+description: "Как работает pdqsort в Golang - алгоритм сортировки, позволяющий избежать худшего случая для quicksort."
 date: 2022-06-17T09:11:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang", "algorithms"]

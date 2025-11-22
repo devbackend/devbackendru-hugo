@@ -1,5 +1,6 @@
 ---
 title: "Худшие практики разработки на Go"
+description: "Неделю назад я делился лучшими практиками разработки на Golang."
 date: 2022-07-08T09:11:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang"]

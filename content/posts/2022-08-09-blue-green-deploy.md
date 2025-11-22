@@ -1,5 +1,6 @@
 ---
 title: "Blue/Green деплой"
+description: "~~Роняли прод?~~"
 date: 2022-08-09T07:09:00+01:00
 image: "/images/posts/tag-deploy.svg"
 tags: ["deploy", "systemdesign"]

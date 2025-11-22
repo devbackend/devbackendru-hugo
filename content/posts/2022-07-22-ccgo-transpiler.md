@@ -1,5 +1,6 @@
 ---
 title: "Транспиляция C в Go через CCGO"
+description: "Если вы разрабатываете на Golang, то наверняка знаете о возможности вызова C-кода из программ на Golang через CGO."
 date: 2022-07-22T09:11:00+01:00
 image: "/images/posts/tag-golang.svg"
 tags: ["golang"]

@@ -1,5 +1,6 @@
 ---
 title: "Работа с джунами"
+description: "Очень интересная статья для тим-лидов и руководителей компаний."
 date: 2018-10-05T08:43:00+01:00
 image: "/images/posts/tag-career.svg"
 tags: ["career"]
