@@ -28,6 +28,9 @@ summaryLength = 70
 [menu]
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     style = 'github-dark'
     lineNos = false
